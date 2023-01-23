@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 
-import s from './styles/Sales.module.scss'
+import s from './styles/Sales.module.css'
 
 const Sales = () => {
   return (

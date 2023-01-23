@@ -2,7 +2,7 @@ import React, {useState} from 'react'
 import { Link } from 'react-router-dom'
 import BasketFloat from './BasketFloat'
 import SearchFloat from './SearchFloat'
-import s from './styles/NavBar.module.scss'
+import s from './styles/NavBar.module.css'
 
 import logoIcon from './../img/icons/logo.svg'
 import searchIcon from './../img/icons/search.svg'

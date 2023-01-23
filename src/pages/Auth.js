@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import { Link, useLocation, useNavigate } from 'react-router-dom'
-import s from './styles/Auth.module.scss'
+import s from './styles/Auth.module.css'
 
 const Auth = () => {
   const {pathname} = useLocation()

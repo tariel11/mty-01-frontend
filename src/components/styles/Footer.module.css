@@ -1,0 +1,26 @@
+footer{
+  margin-top: 115px;
+  padding: 60px 0 100px 0;
+}
+.box{
+  display: flex;
+  justify-content: space-between;
+  
+}
+.box .item h3{
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+  text-transform: uppercase;
+  color: #000000;
+  margin-bottom: 25px;
+}
+.box .item ul li{
+  font-size: 18px;
+  line-height: 22px;
+  text-transform: uppercase;
+  margin-bottom: 25px;
+  
+}
+
+.box ul li a{color: #000;}

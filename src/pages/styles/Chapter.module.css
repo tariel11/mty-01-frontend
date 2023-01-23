@@ -1,0 +1,11 @@
+.chapter{
+  margin-top: 50px;
+}
+.chapter .h1{
+  margin-bottom: 50px;
+}
+.chapter .box{
+  display: grid;  
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}

@@ -3,7 +3,7 @@ import { useParams } from 'react-router-dom'
 
 import axios from '../axios'
 import Cart from '../components/Cart'
-import s from './styles/Chapter.module.scss'
+import s from './styles/Chapter.module.css'
 
 const reducer = (state, action) => {
   switch (action.type) {

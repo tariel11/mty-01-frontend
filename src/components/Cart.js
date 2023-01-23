@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 
-import s from './styles/Cart.module.scss'
+import s from './styles/Cart.module.css'
 
 const Cart = ({product, loading, error}) => { 
 

@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 
-import s from './styles/CatalogItem.module.scss'
+import s from './styles/CatalogItem.module.css'
 
 const CatalogItem = ({imgUrl, title, link}) => {
   return (

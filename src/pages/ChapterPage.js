@@ -6,7 +6,7 @@ import belt from './../img/men/belt.jpeg'
 
 import MyCarousel from '../components/MyCarousel'
 import CatalogItem from '../components/CatalogItem'
-import s from './styles/Mens.module.scss'
+import s from './styles/Mens.module.css'
 
 const ChapterPage = () => {
   return (

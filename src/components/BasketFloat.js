@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 
-import s from './styles/BasketFloat.module.scss'
+import s from './styles/BasketFloat.module.css'
 
 const Item = () => {
   return (

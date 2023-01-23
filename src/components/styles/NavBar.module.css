@@ -1,0 +1,26 @@
+.nav_wrap{
+  width: 100%;
+  background-color: #222222;
+}
+
+.navbar{
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 80px; 
+}
+
+.navul{
+  display: flex;
+  gap: 55px;
+}
+.navul li a{
+    color: #fff;
+  }
+
+.funcs{ 
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}

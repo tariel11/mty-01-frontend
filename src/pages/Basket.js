@@ -1,7 +1,7 @@
 import React from 'react' 
 import BasketItem from '../components/BasketItem'
 
-import s from './styles/Basket.module.scss'
+import s from './styles/Basket.module.css'
 
 const Basket = () => {
   return (

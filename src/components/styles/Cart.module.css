@@ -1,0 +1,42 @@
+.cart{
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+  
+  
+}
+
+/*  */
+.img{
+  background-color: aqua;
+  
+}
+.img img{
+  width: 100%;
+  object-fit: contain;
+}
+
+/*  */
+
+.info .title{
+  font-weight: 500;
+  font-size: 24px;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+.info .price{
+  display: block;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+.info .button{
+  border: none;
+  background: none;
+  font-size: 20px;
+  line-height: 24px;
+  text-decoration-line: underline; 
+  color: #000000;
+}

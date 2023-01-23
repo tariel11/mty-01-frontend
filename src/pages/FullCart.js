@@ -1,7 +1,7 @@
 import React from 'react'
 import { useState } from 'react'
 
-import s from './styles/FullCart.module.scss'
+import s from './styles/FullCart.module.css'
 
 const FullCart = () => {
   // const options = [

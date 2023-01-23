@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import s from './styles/SearchFloat.module.scss'
+import s from './styles/SearchFloat.module.css'
 
 const SearchFloat = ({setSearch}) => {
   return (

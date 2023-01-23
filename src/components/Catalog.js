@@ -7,7 +7,7 @@ import catalog04 from './../img/catalog/04.jpg'
 import catalog05 from './../img/catalog/05.jpg'
 
 import CatalogItem from './CatalogItem'
-import s from './styles/Catalog.module.scss'
+import s from './styles/Catalog.module.css'
 
 const Catalog = () => {
   return (

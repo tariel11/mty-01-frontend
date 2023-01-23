@@ -6,8 +6,7 @@ import Sales from '../components/Sales'
 import slide01 from './../img/slides/01.jpg'
 import slide02 from './../img/slides/02.jpg'
 import slide03 from './../img/slides/03.jpg'
-
-import s from './styles/Home.module.scss'
+ 
 
 const slides = [
   {
@@ -20,10 +19,10 @@ const slides = [
   {slide: slide03, title: 'Spring sale', strong: '', text: 'Для мужчин & женщин'}
 ]
 
-const Home = () => {
+const Home = () => { 
 
   return (
-    <div className={s.home}>
+    <div className={'home'}>
       <div className="container">
         <MyCarousel
           slides={slides}

@@ -1,0 +1,38 @@
+.basket{
+  margin: 30px 0;
+  
+  
+  
+  
+}
+
+.titles{
+  display: grid;
+  grid-template-columns: 50fr 15fr 15fr 20fr;
+  gap: 20px;
+  border-bottom: 1px solid #AAAAAA;
+  margin-bottom: 25px;
+  padding-bottom: 25px;
+}
+.items{
+  margin-bottom: 100px;
+}
+
+.purchase{
+  text-align: center;
+}
+
+.purchase h4{
+  margin-bottom: 20px;
+}
+.purchase button{
+  width: 350px;
+  margin-bottom: 20px;
+  text-align: center;
+  color: #fff;
+  background-color: #000;
+  padding: 10px;
+}
+.purchase p{
+  text-transform: uppercase;
+}
