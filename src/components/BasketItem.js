@@ -1,13 +1,14 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 
+import man from '../img/chapter/men/palto.jpeg'
 import s from './styles/BasketItem.module.scss'
 
 const BasketItem = () => {
   return (
     <div className={s.item}>
     <div className={s.info}>
-      <img src="../img/22.png" alt="" />
+      <img src={man} alt="" />
       <ul>
         <li>Свитер ( Женский )</li>
         <li>Размер: XL (43-44)</li>

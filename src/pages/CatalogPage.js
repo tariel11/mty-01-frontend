@@ -25,8 +25,8 @@ const CatalogPage = () => {
   const {catalog} = useParams() 
   
   const [{ loading, error, products }, dispatch] = useReducer(reducer, {
-    // products: [{id: 1,img: belt, title: 'Tommy Hilfiger - мужской', price: 130}, {id: 1,img: palto, title: 'Tommy fdfdfd - мужской', price: 1403}],
-    products: [],
+    products: [{id: 1,img: belt, title: 'Tommy Hilfiger - мужской', price: 130}, {id: 1,img: palto, title: 'Tommy fdfdfd - мужской', price: 1403}],
+    // products: [],
     loading: true,
     error: "",
   });
