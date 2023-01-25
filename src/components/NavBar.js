@@ -18,12 +18,16 @@ const NavBar = () => {
    }
   const handleMouseEnterSearch = (e) => {
     setSearch(true)
-  }
+  } 
 
   return (
     <div className={s.nav_wrap}>
       <div className="container">
         <div className={s.navbar}>
+          <div className={s.d_none}></div>
+          <div className={s.burger} >
+            <span></span> 
+          </div>
           <div className={s.logo}>
             <Link to={'/'}>
               <img src={logoIcon} alt="" />
@@ -32,13 +36,13 @@ const NavBar = () => {
           <nav>
             <ul className={s.navul}>
               <li className={s.navli}>
-                <Link to={'/chapter/men'}>Мужская</Link>
+                <Link to={'/chapter/man'}>Мужская</Link>
               </li>
               <li>
                 <Link to={'/chapter/woman'}>Женская</Link>
               </li>
               <li>
-                <Link to={'/chapter/unisex'}>Унисекс</Link>
+                <Link to={'/personal'}>Унисекс</Link>
               </li>
               <li>
                 <Link to={'/chapter/shoes'}>Обувь</Link>
@@ -66,6 +70,28 @@ const NavBar = () => {
               </div>
             { basket && <BasketFloat setBasket={setBasket}/>}
             { search && <SearchFloat setSearch={setSearch}/>}
+          </div>
+          <div className={s.res_nav}>
+            <ul>
+              <li>
+                <Link>Войти/ Зарегистрироваться</Link>
+              </li>
+              <li>
+                <Link>Мужская</Link>
+              </li>
+              <li>
+                <Link>Женская</Link>
+              </li>
+              <li>
+                <Link>Унисекс</Link>
+              </li>
+              <li>
+                <Link>Обувь</Link>
+              </li>
+              <li>
+                <Link>Аксессуары</Link>
+              </li>
+            </ul>
           </div>
         </div>
       </div>

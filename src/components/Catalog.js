@@ -14,8 +14,8 @@ const Catalog = () => {
     <div className={s.catalog}>
       <h2>КАТАЛОГ</h2>
       <div className={s.box}>
-       <CatalogItem imgUrl={catalog01} title='Мужская одежда' link={'/chapter/men'} />
-       <CatalogItem imgUrl={catalog02} title='женская одежда'link={'/chapter/women'}  />
+       <CatalogItem imgUrl={catalog01} title='Мужская одежда' link={'/chapter/man'} />
+       <CatalogItem imgUrl={catalog02} title='женская одежда'link={'/chapter/woman'}  />
        <CatalogItem imgUrl={catalog03} title='аксессуары' link={'/chapter/accessories'} />
        <CatalogItem imgUrl={catalog04} title='обувь' link={'/chapter/shoes'} />
        <CatalogItem imgUrl={catalog05} title='унисекс' link={'/chapter/unisex'} />

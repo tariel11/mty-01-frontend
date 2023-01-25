@@ -8,13 +8,13 @@ const Cart = ({product, loading, error}) => {
   return (
     <div className={s.cart}>
       <div className={s.img}>
-        <img src="../img/22.png" alt="" />
+        <img src={product.img} alt={product.title} />
       </div>
       <div className={s.info}>
         <h2 className={s.title}>
-          <Link to={`/cart/`}>title</Link>
+          <Link to={`/cart/${product.id}`}>{product.title}</Link>
         </h2>
-        <strong className={s.price}>$</strong>
+        <strong className={s.price}>{product.price}$</strong>
         <button className={s.button}>Добавить в корзину</button>
       </div>
     </div>

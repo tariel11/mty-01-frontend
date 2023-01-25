@@ -1,14 +1,50 @@
 .fullcart{
   margin-top: 50px;
   text-align: center;
-  .img{
+  .img{ 
+    position: relative;
     margin-bottom: 50px;
+    .colorDots{
+      position: absolute;
+      top: 20%;
+      right: 27%;
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+      button{ 
+        width: 30px;
+        height: 30px;
+        border: 1px solid #000000; 
+        border-radius: 50%;
+        p{
+          width: 20px;
+          height: 20px;
+          margin: 5px auto;
+          background: #E2A55C;
+          border-radius: 50%;
+        }
+      }
+    }
     img{
       margin-bottom: 50px;
     }
     .title{
       margin-bottom: 50px;
     }
+   .dots{ 
+    display: inline-flex;
+    gap: 10px;
+    button{
+        width: 10px;
+        height: 10px; 
+        border-radius: 50%;
+        border: 1px solid #000000;
+        background: none;
+      }
+    .active{
+      background-color: #000;
+    }
+   }
   }
   .desc{
     margin-bottom: 50px;
