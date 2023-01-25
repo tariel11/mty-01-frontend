@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/mty-01-frontend/static/css/main.8e0e9bc1.css",
+    "main.js": "/mty-01-frontend/static/js/main.d0cb62df.js",
+    "static/media/01.jpg": "/mty-01-frontend/static/media/01.c355c949ec50a68f6f53.jpg",
+    "static/media/03.jpg": "/mty-01-frontend/static/media/03.5d68211c3ec6e3e7d0b5.jpg",
+    "static/media/02.jpg": "/mty-01-frontend/static/media/02.c339887ce08a6a9e8453.jpg",
+    "static/media/05.jpg": "/mty-01-frontend/static/media/05.ccac4136ddc5c7c8e2dc.jpg",
+    "static/media/glasses.jpeg": "/mty-01-frontend/static/media/glasses.db593fecfa4ebf129639.jpeg",
+    "static/media/bag.jpeg": "/mty-01-frontend/static/media/bag.214a53f9aff09371f0ff.jpeg",
+    "static/media/dresses.jpeg": "/mty-01-frontend/static/media/dresses.cdcb7f25d5b9c5bbc39b.jpeg",
+    "static/media/04.jpg": "/mty-01-frontend/static/media/04.3eb976e6652d88606ad1.jpg",
+    "static/media/palto.jpeg": "/mty-01-frontend/static/media/palto.da3e4b8c11a59e699417.jpeg",
+    "static/media/belt.jpeg": "/mty-01-frontend/static/media/belt.781decb2ecb9b6556978.jpeg",
+    "static/media/jumper.jpeg": "/mty-01-frontend/static/media/jumper.2466512f4f040d4c317a.jpeg",
+    "static/media/watch.jpeg": "/mty-01-frontend/static/media/watch.ede02517832886d698bf.jpeg",
+    "static/media/bg.jpeg": "/mty-01-frontend/static/media/bg.575c454e8b3925d10660.jpeg",
+    "static/media/bracelets.jpeg": "/mty-01-frontend/static/media/bracelets.76172acac055da2aee1e.jpeg",
+    "static/media/skirt.jpeg": "/mty-01-frontend/static/media/skirt.ddbef4c6582b0295a0a4.jpeg",
+    "static/media/logo.svg": "/mty-01-frontend/static/media/logo.11a55a30c9bfdaf9af3ae1a40326a8af.svg",
+    "static/media/avatar.svg": "/mty-01-frontend/static/media/avatar.eb25e0860690df7db5b5018cde0ba4c0.svg",
+    "static/media/basket.svg": "/mty-01-frontend/static/media/basket.3a7d3b3c6122cb8453c9286a9e07f1b0.svg",
+    "index.html": "/mty-01-frontend/index.html",
+    "static/media/user.svg": "/mty-01-frontend/static/media/user.a4e08b83524a226975548f6074dce50f.svg",
+    "static/media/search.svg": "/mty-01-frontend/static/media/search.2ff7851a90d287c08cff2804dd4be389.svg",
+    "main.8e0e9bc1.css.map": "/mty-01-frontend/static/css/main.8e0e9bc1.css.map",
+    "main.d0cb62df.js.map": "/mty-01-frontend/static/js/main.d0cb62df.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8e0e9bc1.css",
+    "static/js/main.d0cb62df.js"
+  ]
+}
