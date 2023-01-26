@@ -51,7 +51,7 @@ const CatalogPage = () => {
         <div className={s.chapter}>
           <h1 className={s.h1}>{catalog}</h1>
           <div className={s.box}>
-            {
+            {/* {
               loading 
               ?
               <div>ЗАГРУЗКА ТОВАРОВ</div>
@@ -61,7 +61,7 @@ const CatalogPage = () => {
               <div>ОШИБКА С СОЕДИНЕНИЕМ</div>
               :
               null 
-            }
+            } */}
             {products.map(product => 
                 <Cart
                   key={product.id}

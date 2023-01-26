@@ -12,6 +12,7 @@ import basketIcon from './../img/icons/basket.svg'
 const NavBar = () => {
   const [basket, setBasket] = useState(false)
   const [search, setSearch] = useState(false)
+  const [menu, setMenu] = useState(false)
   
   const handleMouseEnterBasket = (e) => {
     setBasket(true)
@@ -19,13 +20,33 @@ const NavBar = () => {
   const handleMouseEnterSearch = (e) => {
     setSearch(true)
   } 
+  const handlerRes = m => m ? setMenu(false) : setMenu(true)
+
 
   return (
     <div className={s.nav_wrap}>
       <div className="container">
         <div className={s.navbar}>
-          <div className={s.d_none}></div>
-          <div className={s.burger} >
+          <div className={menu ? s.res_nav : s.res_nav_hide}>
+            <ul>
+            <li >
+                <Link to={'/chapter/man'}>Мужская</Link>
+              </li>
+              <li>
+                <Link to={'/chapter/woman'}>Женская</Link>
+              </li>
+              <li>
+                <Link to={'/personal'}>Унисекс</Link>
+              </li>
+              <li>
+                <Link to={'/chapter/shoes'}>Обувь</Link>
+              </li>
+              <li>
+                <Link to={'/chapter/accessories'}>Аксессуары</Link>
+              </li>
+            </ul>
+          </div>
+          <div onClick={()=>handlerRes(menu)} className={s.burger} >
             <span></span> 
           </div>
           <div className={s.logo}>
@@ -68,31 +89,10 @@ const NavBar = () => {
                    <img src={basketIcon} alt="" />
                 </Link>
               </div>
-            { basket && <BasketFloat setBasket={setBasket}/>}
+            {/* { basket && <BasketFloat setBasket={setBasket}/>} */}
             { search && <SearchFloat setSearch={setSearch}/>}
           </div>
-          <div className={s.res_nav}>
-            <ul>
-              <li>
-                <Link>Войти/ Зарегистрироваться</Link>
-              </li>
-              <li>
-                <Link>Мужская</Link>
-              </li>
-              <li>
-                <Link>Женская</Link>
-              </li>
-              <li>
-                <Link>Унисекс</Link>
-              </li>
-              <li>
-                <Link>Обувь</Link>
-              </li>
-              <li>
-                <Link>Аксессуары</Link>
-              </li>
-            </ul>
-          </div>
+          
         </div>
       </div>
     </div>
