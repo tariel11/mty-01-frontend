@@ -1,0 +1,123 @@
+.fullcart{
+  padding-top: 50px;
+  text-align: center;
+  @media (max-width: 767px) {
+    padding-top: 10px;
+  }
+  .img{ 
+    position: relative;
+    margin-bottom: 50px; 
+    @media (max-width: 767px) {
+      margin-bottom: 20px; 
+    }
+    img{
+      object-fit: contain;
+      margin-bottom: 50px;
+      @media (max-width: 767px) {
+        margin-bottom: 20px;
+        width: 100%;  
+        object-fit: contain;
+      }
+    }
+    .title{
+      font-weight: 500;
+      font-size: 24px;
+      margin-bottom: 50px;
+      @media (max-width: 767px) {
+        margin-bottom: 20px; 
+      }
+    } 
+  }
+  .desc{
+    margin-bottom: 50px;
+    @media (max-width: 767px) {
+      margin-bottom: 20px; 
+    }
+    .h4{
+      margin-bottom: 20px;
+    }
+    .text{
+      max-width: 800px;
+      margin: 0 auto;
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    .price{
+      font-weight: 500;
+      font-size: 36px;
+      @media (max-width: 767px) {
+        font-size: 20px;
+      }
+    }
+    .characteristics{
+      max-width: 750px;
+      margin: 0 auto;
+      text-align: left;
+      border-bottom: 2px solid #555555;;
+      border-top: 2px solid #555555;
+      margin-bottom: 84px;
+      .h3{
+        cursor: pointer;
+        padding: 20px 0;
+        display: flex;
+        justify-content: space-between; 
+        font-weight: 500;
+        font-size: 24px;
+        span{font-weight: inherit;font-size: inherit;}
+        @media (max-width: 767px) {
+          font-size: 20px; 
+        }
+      } 
+      li{
+        display: flex;
+        gap: 20px;
+        :first-child{width: 35%;}
+        :last-child{width: 65%;}
+      }
+    }
+  }
+  .btns{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    .size{
+      max-width: 350px;
+      border: 2px solid #000;
+      font-weight: 500;
+      padding: 10px 20px;
+      text-align: left;
+      h3{
+        font-size: 24px;
+        @media (max-width: 767px) {
+          font-size: 18px;
+        }
+        &::after{
+          content: '>';
+          transform: rotate(45deg);
+          margin-left: 30px;
+        }
+      }
+      ul{ 
+        li{
+          font-weight: 500;
+          font-size: 20px;
+          @media (max-width: 767px) {
+            font-size: 14px;
+          }
+        }
+      }
+    } 
+    .btn{
+      font-size: 24px;
+      padding: 14px;
+      max-width: 350px;
+      background-color: #000;
+      color: #fff;
+      text-transform: uppercase;
+      @media (max-width: 767px) {
+        font-size: 14px;
+      }
+    }
+  }
+}

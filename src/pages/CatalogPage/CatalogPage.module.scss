@@ -1,0 +1,25 @@
+.catalog{
+  padding-top: 50px;
+  @media (max-width: 950px) {
+    padding-top: 20px;
+  }
+  .h1{
+    font-weight: 500;
+    font-size: 36px;
+    margin-bottom: 50px;
+    @media (max-width: 950px) {
+      margin-bottom: 20px;
+    }
+  }
+  .box{
+    display: grid;  
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    @media (max-width: 580px) {
+      grid-template-columns: repeat(2, 1fr);
+    }
+    @media (max-width: 374px) {
+      grid-template-columns: 1fr;
+    }
+  }
+}
