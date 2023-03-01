@@ -1,0 +1,82 @@
+.sales {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+@media (max-width: 767px) {
+  .sales {
+    margin-top: 20px;
+    gap: 20px;
+ }
+}
+.sales a img {
+  width: 100%;
+  object-fit: cover;
+}
+.sales .sale {
+  display: grid;
+  grid-template-columns: 7fr 3fr;
+}
+@media (max-width: 767px) {
+  .sales .sale {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+ }
+}
+@media (max-width: 600px) {
+  .sales .sale {
+    display: flex;
+    flex-direction: column;
+ }
+}
+.sales .sale img {
+  width: 100%;
+  object-fit: cover;
+}
+.sales .sale .box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  background-color: #f5f5f5;
+  padding: 20px;
+  text-align: center;
+}
+.sales .sale .box .title {
+  font-family: 'Limerick-Serial-Medium';
+  font-weight: 500;
+  font-size: 64px;
+  text-align: center;
+  margin-bottom: 37px;
+}
+@media (max-width: 1100px) {
+  .sales .sale .box .title {
+    font-size: 20px;
+    margin-bottom: 10px;
+ }
+}
+.sales .sale .box .text {
+  font-weight: 300;
+  font-size: 24px;
+  margin-bottom: 87px;
+}
+@media (max-width: 1100px) {
+  .sales .sale .box .text {
+    font-size: 14px;
+    margin-bottom: 20px;
+ }
+}
+.sales .sale .box .link {
+  font-size: 20px;
+  background-color: #000;
+  padding: 16px 40px;
+  color: #fff;
+}
+@media (max-width: 1100px) {
+  .sales .sale .box .link {
+    font-size: 13px;
+    padding: 12px;
+ }
+}

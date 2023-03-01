@@ -6,7 +6,7 @@ import catalog02 from '../../img/catalog/02.jpg'
 import catalog03 from '../../img/catalog/03.jpg'
 import catalog04 from '../../img/catalog/04.jpg'
 import catalog05 from '../../img/catalog/05.jpg'
-import s from './Catalog.module.scss'
+import s from './Catalog.module.css'
 
 const Catalog = () => {
   return (

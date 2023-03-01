@@ -1,16 +1,16 @@
-import React, { useContext, useEffect, useState } from 'react'
+import React, { useContext, useState } from 'react'
 import { Link, useLocation, useNavigate } from 'react-router-dom'
 
 import axios from '../../utils/axios'
 import { Store } from '../../utils/Store'
-import s from './Auth.module.scss'
+import s from './Auth.module.css'
 
 const Auth = () => {
   const {pathname} = useLocation()
   const navigate = useNavigate()
 
   const { state, dispatch: ctxDispatch } = useContext(Store);
-  const { userInfo } = state;
+  const { userInfo } = state; 
 
   const [name, setName] = useState('')
   const [fullName, setFullName] = useState('')
@@ -46,11 +46,9 @@ const Auth = () => {
     }
   };
 
-  useEffect(() => {
-    if(userInfo){
-      navigate('/personal')
-    }
-  }, [userInfo]);
+  if(userInfo){
+    navigate('/personal')
+  }
 
   const isLogin = pathname === '/login';
   const isRegistration = pathname ==='/registration';

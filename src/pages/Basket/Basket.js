@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 import BasketItem from '../../components/BasketItem/BasketItem'
 import { Store } from '../../utils/Store';
-import s from './Basket.module.scss'
+import s from './Basket.module.css'
 
 const Basket = () => {
   const { state, dispatch: ctxDispatch } = useContext(Store);

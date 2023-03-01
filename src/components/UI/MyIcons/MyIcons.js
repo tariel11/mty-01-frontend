@@ -5,7 +5,7 @@ import SearchFloat from '../SearchFloat/SearchFloat'
 import searchIcon from '../../../img/icons/search.svg'
 import userIcon from '../../../img/icons/user.svg'
 import basketIcon from '../../../img/icons/basket.svg'
-import s from './MyIcons.module.scss'
+import s from './MyIcons.module.css'
 
 const MyIcons = () => {
   const [search, setSearch] = useState(false)

@@ -1,0 +1,36 @@
+.wrap {
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  top: 80px;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 10;
+}
+.wrap form {
+  width: 100%;
+  display: flex;
+  padding: 20px;
+  background-color: #fff;
+}
+.wrap form input {
+  width: 100%;
+  padding-left: 40px;
+  font-size: 24px;
+  color: #555;
+  border: none;
+  border-bottom: 2px solid #555;
+  background: url('../../../img/icons/search__black.svg') no-repeat center left;
+}
+.wrap form .btn {
+  display: block;
+  color: #fff;
+  background-color: #000;
+  border-radius: 10px;
+  padding: 5px;
+}
+@media (max-width: 767px) {
+  .wrap form .btn {
+    display: none;
+ }
+}

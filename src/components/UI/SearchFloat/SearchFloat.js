@@ -1,7 +1,7 @@
 import React, { useState } from 'react' 
 import { useNavigate } from 'react-router-dom'
 
-import s from './SearchFloat.module.scss'
+import s from './SearchFloat.module.css'
 
 const SearchFloat = ({search, setSearch}) => {
   const navigate = useNavigate()

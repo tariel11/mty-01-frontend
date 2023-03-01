@@ -5,7 +5,7 @@ import { Store } from '../../utils/Store'
 import BasketItem from '../../components/BasketItem/BasketItem'
 import Admin from '../../components/Admin/Admin'
 import avatar from '../../img/personal/avatar.svg'
-import s from './Personal.module.scss'
+import s from './Personal.module.css'
 
 const Personal = () => {
   const { state } = useContext(Store);

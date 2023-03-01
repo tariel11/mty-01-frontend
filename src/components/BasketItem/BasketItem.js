@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 
-import s from './BasketItem.module.scss'
+import s from './BasketItem.module.css'
 
 const BasketItem = ({product, removeItemHandler, updateCartHandler}) => { 
   return (

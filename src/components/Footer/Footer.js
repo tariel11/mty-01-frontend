@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
 
-import s from './Footer.module.scss'
+import s from './Footer.module.css'
 
 const Footer = () => {
 

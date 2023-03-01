@@ -1,0 +1,29 @@
+.searchpage {
+  padding: 50px 0;
+}
+.searchpage h1 {
+  font-weight: 500;
+  font-size: 36px;
+  margin-bottom: 100px;
+}
+@media (max-width: 767px) {
+  .searchpage h1 {
+    font-size: 24px;
+    margin-bottom: 50px;
+ }
+}
+.searchpage .box {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+@media (max-width: 580px) {
+  .searchpage .box {
+    grid-template-columns: repeat(2, 1fr);
+ }
+}
+@media (max-width: 374px) {
+  .searchpage .box {
+    grid-template-columns: 1fr;
+ }
+}

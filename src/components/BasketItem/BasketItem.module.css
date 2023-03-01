@@ -1,0 +1,82 @@
+.item {
+  display: grid;
+  grid-template-columns: 1fr auto auto auto 1fr;
+  gap: 20px;
+  border-bottom: 1px solid #aaa;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+}
+.item h3 {
+  font-weight: 500;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+@media (max-width: 1023px) {
+  .item h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+ }
+}
+@media (max-width: 767px) {
+  .item {
+    grid-template-columns: repeat(3, 1fr);
+ }
+}
+@media (max-width: 474px) {
+  .item {
+    grid-template-columns: 1fr auto 1fr;
+ }
+}
+@media (max-width: 767px) {
+  .item .info {
+    grid-column: -2;
+ }
+}
+.item .info li {
+  margin-bottom: 10px;
+}
+@media (max-width: 424px) {
+  .item .info li {
+    margin: 0;
+ }
+}
+.item .amount span {
+  padding: 5px 10px;
+  background-color: #000;
+  color: #fff;
+  font-weight: 500;
+  font-size: 16px;
+}
+.item .amount span:nth-child(3) {
+  background-color: #fff;
+  color: #000;
+}
+.item .price a {
+  text-align: center;
+  color: #000;
+  padding: 5px;
+  border: 1px solid #000;
+}
+.item .sum {
+  display: grid;
+  grid-template-rows: auto auto 1fr auto;
+}
+.item .sum button {
+  display: block;
+  text-align: center;
+  align-self: end;
+  color: #fff;
+  background-color: #000;
+  padding: 5px;
+  margin-top: 10px;
+}
+.item .sum button.change {
+  color: #000;
+  background-color: #fff;
+  border: 1px solid #000;
+}
+@media (max-width: 767px) {
+  .item .sum button {
+    font-size: 14px;
+ }
+}

@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 
 import axios from '../../utils/axios'
-import s from './Admin.module.scss'
+import s from './Admin.module.css'
 
 const Admin = () => {
   const [title, setTitle] = useState('')
@@ -23,7 +23,7 @@ const Admin = () => {
     e.preventDefault();
     try {
        
-      const { data } = await axios.post('/api/addcart',
+      await axios.post('/api/addcart',
               {
                 title,
                 chapter,

@@ -13,7 +13,7 @@ import glasses from './../../img/chapter/accessories/glasses.jpeg'
 
 import MyCarousel from '../../components/MyCarousel/MyCarousel'
 import CatalogItem from '../../components/CatalogItem/CatalogItem'
-import s from './ChapterPage.module.scss'
+import s from './ChapterPage.module.css'
  
 const man = [ { img: palto, title: "ДЖЕМПЕР&пальто",link: "palto" }, { img: watch, title: "ЧАСЫ",link: "watch" }, { img: belt, title: "РЕМЕНЬ", link: "belt" }, ]
 const woman = [ { img: dresses, title: "платье",link: "dresses" }, { img: skirt, title: "юбка",link: "skirt" }, { img: jumper, title: "джемпер", link: "jumper" }, ]

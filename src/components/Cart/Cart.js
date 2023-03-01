@@ -2,7 +2,7 @@ import React, {useContext} from 'react'
 import { Link } from 'react-router-dom'
 
 import { Store } from "../../utils/Store";
-import s from './Cart.module.scss'
+import s from './Cart.module.css'
 
 const Cart = ({product}) => { 
   const { state, dispatch: ctxDispatch } = useContext(Store);

@@ -1,7 +1,7 @@
 import Carousel from 'react-bootstrap/Carousel';
 
 import slide from './../../img/slides/01.jpg'
-import s from './MyCarousel.module.scss'
+import s from './MyCarousel.module.css'
 
 const MyCarousel = () => { 
   return ( 

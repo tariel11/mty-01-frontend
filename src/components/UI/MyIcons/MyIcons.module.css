@@ -1,0 +1,16 @@
+.funcs {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  margin-left: auto;
+}
+@media (max-width: 950px) {
+  .funcs {
+    display: grid;
+    column-gap: 15px;
+    grid-template-columns: 1fr auto;
+ }
+  .funcs :nth-child(2) {
+    display: none;
+ }
+}

@@ -1,0 +1,33 @@
+.caption {
+  font-family: 'Limerick-Serial-Medium';
+  background-color: #fff;
+  color: #000;
+  width: fit-content;
+  margin: 0 auto;
+  padding: 20px 50px;
+  font-weight: 500;
+}
+.caption h3 {
+  font-size: 64px;
+}
+.caption strong {
+  font-size: 48px;
+}
+.caption p {
+  font-size: 24px;
+  margin-bottom: 0;
+}
+@media (max-width: 767px) {
+  .caption {
+    padding: 5px;
+ }
+  .caption h3 {
+    font-size: 32px;
+ }
+  .caption strong {
+    font-size: 20px;
+ }
+  .caption p {
+    font-size: 16px;
+ }
+}

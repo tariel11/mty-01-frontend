@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 
 import MyLogo from '../UI/MyLogo/MyLogo'
 import MyIcons from '../UI/MyIcons/MyIcons'
-import s from './NavBar.module.scss'
+import s from './NavBar.module.css'
 
 const NavBar = () => { 
   const [menu, setMenu] = useState(false)

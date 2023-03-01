@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 
 import sale1 from '../../img/sales/sale1.png'
 import sale2 from '../../img/sales/sale2.png'
-import s from './Sales.module.scss'
+import s from './Sales.module.css'
 
 const Sales = () => {
   return (
